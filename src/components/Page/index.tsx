@@ -2,12 +2,13 @@ import React from 'react';
 import DefaultOverlayContent from '../DefaultOverlayContent';
 
 import { ModelsSection, ModelsWrapper } from '../Model';
+import UniqueOverlay from '../UniqueOverlay';
 
-import * as S from './styles';
+import { Container, Spacer } from './styles';
 
 const Page: React.FC = () => {
   return (
-    <S.Container>
+    <Container>
       <ModelsWrapper>
         <div>
           {[
@@ -32,8 +33,12 @@ const Page: React.FC = () => {
             />
           ))}
         </div>
+
+        <Spacer />
+
+        <UniqueOverlay />
       </ModelsWrapper>
-    </S.Container>
+    </Container>
   );
 };
 

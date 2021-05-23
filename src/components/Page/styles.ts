@@ -5,21 +5,26 @@ export const Container = styled.div`
     background: #f1ffe7;
   }
   .colored:nth-child(2) {
-    background: #dfffd9;
+    background: #F6FFF8;
   }
   .colored:nth-child(3) {
-    background: #cdfeca;
+    background: #EAF4F4;
   }
   .colored:nth-child(4) {
-    background: #bbfebb;
+    background: #CCE3DE;
   }
   .colored:nth-child(5) {
-    background: #a9fdac;
+    background: #A4C3B2;
   }
   .colored:nth-child(6) {
-    background: #90f29c;
+    background: #88AA99;
   }
   .colored:nth-child(7) {
-    background: #77e68c;
+    background: #6B9080;
   }
+`;
+
+export const Spacer = styled.div`
+  height: 15vh;
+  background-color: #6B9080;
 `;

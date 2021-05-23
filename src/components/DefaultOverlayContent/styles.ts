@@ -10,6 +10,10 @@ export const Container = styled.div`
 
 export const Heading = styled.div`
   margin-top: 16.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   > h1 {
     font-weight: 500;
